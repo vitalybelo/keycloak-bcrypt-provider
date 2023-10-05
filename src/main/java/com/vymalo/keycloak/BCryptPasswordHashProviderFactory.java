@@ -14,6 +14,7 @@ import java.util.Map;
  * @author <a href="mailto:pro.guillaume.leroy@gmail.com">Guillaume Leroy</a>
  */
 public class BCryptPasswordHashProviderFactory implements PasswordHashProviderFactory, ServerInfoAwareProviderFactory {
+
     public static final String ID = "bcrypt";
     public static final int DEFAULT_ITERATIONS = 8192;
 
